@@ -1,1 +1,16 @@
 /* add your styles here */
+.Heading{
+    display: flex;
+    justify-content: center;
+}
+.parent_div{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 50px;
+    justify-items: center;
+    
+}
+.image{
+    width: 90%;
+}
